@@ -34,7 +34,7 @@ build_stage = pipeline.add_stage(
     ]
 )
 
-# Add a deployment stage to the pipeline
+# Add a deployment stage to the pipeline.
 deploy_stage = pipeline.add_stage(
     stage_name="Deploy",
     actions=[
