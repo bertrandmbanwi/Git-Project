@@ -15,7 +15,7 @@ source_stage = pipeline.add_stage(
             action_name="GitHub_Source",
             output=source_output,
             owner="bertrandmbanwi",
-            repo="YourGitHubRepoName",
+            repo="Git-project",
             oauth_token=codepipeline.SecretValue.secrets_manager("GitHubToken"),
             branch="master"
         )
