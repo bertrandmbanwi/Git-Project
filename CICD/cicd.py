@@ -4,10 +4,6 @@ from aws_cdk import (
     aws_codebuild as codebuild,
     aws_codepipeline as codepipeline,
     aws_codepipeline_actions as codepipeline_actions,
-    aws_s3 as s3,
-    aws_s3_deployment as s3_deployment,
-    aws_ssm as ssm,
-    aws_iam as iam,
     core
 )
 
